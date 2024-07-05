@@ -29,7 +29,7 @@ const ImmersiveCodeMenu = () => {
     id="code"
     className="min-h-screen bg-gray-900 text-white p-8 flex flex-col justify-center items-center">
       <h1 className="text-5xl font-bold mb-8 text-center text-blue-400">Galeria de Componentes React</h1>
-      <p className="text-lg text-center">Todos os componentes aqui disponíveis estão com estilização usando Tailwind CSS.</p>
+      <p className="text-lg text-center">Todos os componentes <strong>React</strong> aqui disponíveis estão com estilização usando Tailwind CSS.</p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20 ">
         {codeExamples.map((example, index) => (
